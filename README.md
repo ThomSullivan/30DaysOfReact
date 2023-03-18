@@ -13,3 +13,6 @@ First create-react-app boilerplate day! Most of the boilerplate was removed and 
 
 ## Day 4
 Work with React elements has started, creating function based elements that return JSX. Data is being injected into the JSX elements for various sources like object attributes, and random colors. Working with styles that are dependent upon variables within the function is a little tricky at the moment. However at this moment there is no CSS file and therefor CSS classes are not being utilized. At the moment styles are being defined as an object within the index.js file. I assume this will change as the days continue, but it is always nice to learn to methods to work around problems that are encountered.
+
+## Day 5
+The focus of day is on how to utilize props to pass data between React components. Getting a little bit of box in a box syndrome at this point. JSX wrapped in functinos wrapped in other components and data passing between all of them. I get why this is being done, creating apps this way make parts reusable and allows for programatic creation of elements on screen. The exercise are still only producing a static page at this point. I am ready to start creating features that are not just a static display. Its about time to start making React react to user interactions.
