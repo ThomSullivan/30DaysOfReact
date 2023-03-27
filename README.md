@@ -34,3 +34,13 @@ File structuring and organization, up until this point in the challenges all the
 
 ## Day 11
 This day covered DOM events. Work has already been done in the previous challenges with a single event. This was just an expansion on events and the other events available to use. The exercise for the day had me create a box that runs away from the mouse when hovered over. I call it the worlds best unsubscribe button :)
+
+## Day 12
+Work with forms and React for day 12. What good is an application that cannot have data input, forms are critical!. 
+### The idea that I get on how to handle forms with React is like this: 
+1. Create an input, and a corresponding state attribute, and touched state
+1. Create an onChange event listener that updates the corresponding state attribute
+1. Add an onBlur event listener for the input that updates the touched status and allows a validation function to return a value for errors
+1. Empty error elements are then updated if validation returns any errors
+
+There was not much to the exercises for this day. Building validation for a for with many data types was the goal. Every input type is present in the form to get practice working with a variety of form elements. The live update on input validation is much snappier that validation on after a click or purely server side validation. It makes the form feel much more responsive.
