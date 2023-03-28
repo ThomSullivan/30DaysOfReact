@@ -44,3 +44,6 @@ Work with forms and React for day 12. What good is an application that cannot ha
 1. Empty error elements are then updated if validation returns any errors
 
 There was not much to the exercises for this day. Building validation for a for with many data types was the goal. Every input type is present in the form to get practice working with a variety of form elements. The live update on input validation is much snappier that validation on after a click or purely server side validation. It makes the form feel much more responsive.
+
+## Day 13
+This day just talked on the differences between controlled and uncontrolled inputs in React. Uncontrolled inputs were shown and then recommended against using them unless needed. The file input type has some caveat that make React unable to control inputs of this type. The instant validation is not present when React does not control the input through a component. The moral of today is, use component states to control inputs whenever possible. If you find yourself in a position where an input need to be uncontrolled use a ref is needed to get that data from the DOM.
