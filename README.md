@@ -62,3 +62,6 @@ Routing in a React application was the focus of this day's lesson. This really m
 
 ## Day 18
 This day's focus was on API calls within React. This lesson recommends the use of the third party package Axios for making fetch calls of any type. This is due to compatibility issues with the fetch function built in to JavaScript. API calls done with Axios also has simpler code than the Fetch functionality. I was getting a little rusty with some of the data transformation functions within JavaScript and think I may have been trying Python for a little while! I got back on the right track and the practice with these functions in JavaScript were a definite help. These refresher exercises on the fundamentals are great scattered throughout lessons on React. 
+
+## Day 19
+No lesson for this day only a project involving the cat API. I was always more a dog person myself. An app was created that displays information and pictures of all the cat breeds available from the API.
